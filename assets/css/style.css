@@ -61,7 +61,6 @@ main {
 img {
   width: 100%;
   border-radius: 10px;
-  /* margin-bottom: 3%; */
 }
 
 #preparation {
@@ -146,3 +145,38 @@ table tr td:nth-child(2) {
 .attribution a {
   color: hsl(228, 45%, 44%);
 } */
+
+@media screen and (max-width: 376px) {
+  main {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 0;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 0;
+  }
+  #mobile-layout {
+    padding: 0% 6%;
+    margin-bottom: 8%;
+  }
+
+  h3 {
+    margin-left: 4%;
+  }
+
+  #preparation ul {
+    margin-left: 12%;
+  }
+
+  #ingredients ul {
+    margin-left: 7%;
+  }
+
+  #instructions ol {
+    margin-left: 7%;
+  }
+}
