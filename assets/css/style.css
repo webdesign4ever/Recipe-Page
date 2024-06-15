@@ -1,0 +1,148 @@
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit";
+  background-color: var(--Eggshell);
+  color: var(--DarkRaspberry);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  margin: 3% 0;
+  color: var(--DarkCharcoal);
+}
+
+h3 {
+  margin: 2% 0;
+  margin-left: -3.5%;
+  color: var(--DarkRaspberry);
+}
+
+li {
+  margin-bottom: 1.5%;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 3%;
+  color: var(--DarkRaspberry);
+}
+
+main {
+  background-color: var(--White);
+  width: 60%;
+  margin: 5% 0;
+  padding: 4% 3%;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  /* margin-bottom: 3%; */
+}
+
+#preparation {
+  background-color: var(--RoseWhite);
+  border-radius: 15px;
+  padding: 3% 5%;
+}
+
+#preparation ul li span {
+  color: var(--DarkRaspberry);
+  font-weight: 700;
+  padding-left: 3%;
+}
+
+#ingredients {
+  margin-bottom: 4%;
+}
+#ingredients h2 {
+  color: var(--Nutmeg);
+}
+
+#ingredients ul {
+  margin-left: 3%;
+}
+
+#ingredients ul li {
+  padding-left: 3%;
+}
+
+#instructions {
+  margin-bottom: 4%;
+}
+
+#instructions h2 {
+  color: var(--Nutmeg);
+}
+
+#instructions ol {
+  margin-left: 3%;
+}
+
+#instructions ol li {
+  padding-left: 2.5%;
+}
+
+#instructions ol li span {
+  color: var(--DarkRaspberry);
+  font-weight: 700;
+}
+
+ol li::marker {
+  font-weight: 700;
+  color: var(--Nutmeg);
+}
+
+#nutrition h2 {
+  color: var(--Nutmeg);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr:not(:last-child) {
+  border-bottom: 1px solid var(--Eggshell);
+}
+table tr td {
+  padding: 2% 4%;
+}
+
+table tr td:nth-child(2) {
+  color: var(--Nutmeg);
+  font-weight: 700;
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
